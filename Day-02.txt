@@ -1,0 +1,39 @@
+git init: Initializes a new Git repository in the current directory.
+
+git clone <repository_url>: Creates a local copy of a remote repository from the specified URL.
+
+git add <file>: Stages a file or changes for the next commit.
+
+git commit -m "Commit message": Creates a new commit with the staged changes and a descriptive message.
+
+git status: Shows the status of the working directory and staging area, displaying the changes that are not yet committed.
+
+git log: Displays a chronological list of commits, showing the commit messages, authors, dates, and commit hashes.
+
+git pull: Fetches and merges changes from a remote repository into the current branch.
+
+git push: Pushes committed changes to a remote repository.
+
+git branch: Lists all branches in the repository, highlighting the current branch.
+
+git checkout <branch_name>: Switches to the specified branch.
+
+git merge <branch_name>: Merges the specified branch into the current branch.
+
+git remote -v: Shows a list of remote repositories and their URLs.
+
+git remote add <remote_name> <repository_url>: Adds a new remote repository with the given name and URL.
+
+git diff: Shows the differences between the working directory and the staging area.
+
+git diff --staged: Shows the differences between the staging area and the last commit.
+
+git reset <file>: Removes a file from the staging area, but preserves its changes.
+
+git reset --hard: Resets the working directory and staging area to match the last commit.
+
+git stash: Temporarily saves the changes in the working directory to be reapplied later.
+
+git branch -d <branch_name>: Deletes the specified branch.
+
+git remote rm <remote_name>: Removes the specified remote repository
